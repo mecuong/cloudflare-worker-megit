@@ -10,6 +10,6 @@ compatibility_date = "2021-11-11"
 
 [vars]
 GITHUB_TOKEN = "<GITHUB_TOKEN>"
-GITHUB_USER = "mecuong"
-GITHUB_REPO = "test"
+GITHUB_USER = "<GITHUB_USER>"
+GITHUB_REPO = "<GITHUB_REPO>"
 AUTO_SIGN = "[A]"
