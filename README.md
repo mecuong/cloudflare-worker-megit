@@ -2,6 +2,11 @@
 
 Auto update issue status on repository project description via Cloudflare worker.
 
+#### Why workers 
+Because it's free, hight performance and ready
+![image](https://user-images.githubusercontent.com/68834774/141427383-44457068-a85c-4b1c-9b3e-25a332cafffd.png)
+
+
 [`index.js`](https://github.com/mecuong/cloudflare-worker-megit/blob/master/index.js) is the content of the Workers script.
 
 #### Register an account or login to <https://dash.cloudflare.com/login>
@@ -35,7 +40,7 @@ npm install
 ```
 wrangler dev
 ```
-**or**
+or
 ```
 npm run dev 8080
 ```
@@ -44,7 +49,9 @@ npm run dev 8080
 ```
 wrangler publish
 ```
-**or**
+or
 ```
 npm run deploy
 ```
+
+
