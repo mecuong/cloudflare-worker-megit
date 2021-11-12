@@ -1,7 +1,3 @@
-const GITHUB_USER = 'mecuong';
-const GITHUB_REPO = 'test';
-const AUTO_SIGN = '[A]';
-
 addEventListener('fetch', event => {
   event.respondWith(handleRequest(event.request, event))
 })

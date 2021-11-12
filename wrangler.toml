@@ -1,4 +1,4 @@
-name = "<WORKER_NAME>"
+name = "<FUNCTION NAME>"
 type = "webpack"
 
 account_id = ""
@@ -10,3 +10,6 @@ compatibility_date = "2021-11-11"
 
 [vars]
 GITHUB_TOKEN = "<GITHUB_TOKEN>"
+GITHUB_USER = "mecuong"
+GITHUB_REPO = "test"
+AUTO_SIGN = "[A]"
