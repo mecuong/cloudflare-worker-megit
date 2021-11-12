@@ -7,7 +7,7 @@ addEventListener('fetch', event => {
  * @param {Request} request
  */
  async function handleRequest(request, event) {
-  await updateProject();
+  event.waitUntil(updateProject());
   return new Response('OK', {
     headers: { 'content-type': 'text/plain' }
   })
