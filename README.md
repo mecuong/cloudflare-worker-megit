@@ -39,6 +39,14 @@ npm install
 - GITHUB_REPO repository name
 - AUTO_SIGN your sign in repository's project name
 
+## Set cron time in file wranger.toml
+example every minute
+```
+[triggers]
+crons = ["* * * * *"]
+```
+
+
 ## Run as dev on local
 ```
 wrangler dev
