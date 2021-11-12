@@ -8,6 +8,9 @@ zone_id = ""
 webpack_config = "webpack.config.js"
 compatibility_date = "2021-11-11"
 
+[triggers]
+crons = ["* * * * *"]
+
 [vars]
 GITHUB_TOKEN = "<GITHUB_TOKEN>"
 GITHUB_USER = "<GITHUB_USER>"
