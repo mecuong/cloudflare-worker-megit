@@ -1,0 +1,12 @@
+name = "<WORKER_NAME>"
+type = "webpack"
+
+account_id = ""
+workers_dev = true
+route = ""
+zone_id = ""
+webpack_config = "webpack.config.js"
+compatibility_date = "2021-11-11"
+
+[vars]
+GITHUB_TOKEN = "<GITHUB_TOKEN>"

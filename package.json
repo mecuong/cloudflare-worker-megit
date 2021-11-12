@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "megit-fetch-project",
+  "version": "1.0.0",
+  "description": "A template for kick starting a Cloudflare Workers project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "wrangler dev --port",
+    "deploy": "wrangler publish"
+  },
+  "author": "mecuong <68834774+mecuong@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.18.2",
+    "webpack": "^5.63.0",
+    "webpack-cli": "^4.9.1",
+    "wrangler": "^0.0.2"
+  },
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}

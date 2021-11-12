@@ -1,0 +1,15 @@
+{
+  "editor.tabSize": 2,
+  "editor.rulers": [80, 120],
+  "files.trimTrailingWhitespace": true,
+  "npm.packageManager": "npm",
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.detectIndentation": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.suggest.preview": true,
+  "editor.bracketPairColorization.enabled": true,
+  "typescript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+  "typescript.format.placeOpenBraceOnNewLineForFunctions": true
+}
