@@ -1,4 +1,4 @@
-name = "<FUNCTION NAME>"
+name = "slack-message"
 type = "webpack"
 
 account_id = ""
@@ -7,12 +7,10 @@ route = ""
 zone_id = ""
 webpack_config = "webpack.config.js"
 compatibility_date = "2021-11-11"
+kv_namespaces = [
+  { binding = "MEMBERS", id = "d74755004443452fa18a0320cf727921", preview_id="d74755004443452fa18a0320cf727921" }
+]
 
-[triggers]
-crons = ["* * * * *"]
 
 [vars]
-GITHUB_TOKEN = "<GITHUB_TOKEN>"
-GITHUB_USER = "<GITHUB_USER>"
-GITHUB_REPO = "<GITHUB_REPO>"
-AUTO_SIGN = "[A]"
+SLACK_BOT_TOKEN = "xoxb-798455527522-3263256306068-effdTepFCE99AKBcLTexGVxS"
